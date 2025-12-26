@@ -4,3 +4,17 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rqs_lib = { git = "https://github.com/nozwock/rquickshare.git", rev = "378d8ae969941bee4bf60ad34ac9cf8bb7005eb7", default-features = false }
+anyhow = "1.0.100"
+clap = { version = "4.5.53", features = ["derive"] }
+tokio = "1.48.0"
+env_logger = "0.11.8"
+log = "0.4.29"
+ratatui = "0.29.0"
+thiserror = "2.0.17"
+tokio-stream = { version = "0.1.17", features = ["sync"]}
+pin-project = "1.1.10"
+crossterm = { version = "0.29.0", features = ["event-stream"]}
+indexmap = "2.12.1"
+scopeguard = "1.2.0"
+hostname = "0.4.2"
